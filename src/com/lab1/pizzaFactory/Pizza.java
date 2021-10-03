@@ -1,17 +1,23 @@
 package com.lab1.pizzaFactory;
 
+import java.util.Arrays;
+
 public abstract class Pizza {
     public abstract String getName();
+
     public abstract int getPrice();
+
     public abstract String[] getIngredients();
 
     public void pizzaInfo() {
-        System.out.println("Name:" + this.getName());
+        System.out.println("---------------------------");
+        System.out.println("Pizza name:" + this.getName());
         System.out.println("Price:" + this.getPrice());
-        System.out.println("Ingredients:" + this.getIngredients());
+        System.out.println("Ingredients:" + Arrays.toString(this.getIngredients()));
     }
-    public void order() {
-        System.out.println(this.getName()+" is ordered");
+
+    public void bake() {
+        System.out.println("All ingredients added to " + this.getName() + " and put into oven");
     }
 }
 
