@@ -1,7 +1,7 @@
 # TMPS(Tehnici si Mecanici de Proiectare Software ) Labs
 ## Lab 1
 ### Topic:Creational Design Patterns
-###Author
+### Author
 Spivac Iana, FAF-192, Software Engineering student at TUM.
 
 ### Introduction/Theory
