@@ -65,9 +65,11 @@ public class Burger {
             System.out.println("Cheese: " + this.getCheese());
         }
     }
-    public void assembleBurger(){
-        System.out.println(this.name + "is being assembled");
+
+    public void prepareBurger() {
+        System.out.println("All ingredients were prepared for " + this.name);
     }
+
     public static class BurgerBuilder {
         private final String name; // required
         private final int price; // required

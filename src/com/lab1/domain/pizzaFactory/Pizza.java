@@ -1,4 +1,4 @@
-package com.lab1.pizzaFactory;
+package com.lab1.domain.pizzaFactory;
 
 import java.util.Arrays;
 
@@ -16,8 +16,9 @@ public abstract class Pizza {
         System.out.println("Ingredients:" + Arrays.toString(this.getIngredients()));
     }
 
-    public void bake() {
+    public void preparePizza() {
         System.out.println("All ingredients added to " + this.getName() + " and put into oven");
     }
+
 }
 

@@ -1,4 +1,4 @@
-package com.lab1.pizzaFactory;
+package com.lab1.domain.pizzaFactory;
 
 public class FunghiPizza extends Pizza{
     private String name = "Funghi Pizza";

@@ -1,6 +1,4 @@
-package com.lab1.pizzaFactory;
-
-import java.util.ArrayList;
+package com.lab1.domain.pizzaFactory;
 
 public class ChickenPizza extends Pizza{
     private String name = "Chicken Pizza";

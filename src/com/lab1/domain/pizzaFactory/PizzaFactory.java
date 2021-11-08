@@ -1,15 +1,15 @@
-package com.lab1.pizzaFactory;
+package com.lab1.domain.pizzaFactory;
 
 public class PizzaFactory {
     public static Pizza getPizza(String pizzaType) {
         switch (pizzaType) {
-            case "americana":
+            case "americanaPizza":
                 return new AmericanaPizza();
-            case "chicken":
+            case "chickenPizza":
                 return new ChickenPizza();
-            case "funghi":
+            case "funghiPizza":
                 return new FunghiPizza();
-            case "pepperoni":
+            case "pepperoniPizza":
                 return new PepperoniPizza();
             default:
                 return null;
