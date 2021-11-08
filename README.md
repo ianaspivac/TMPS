@@ -20,4 +20,8 @@ for any restuarant, menu is unique. As main dishes which this `menu` contains ar
 other things like vegetables and cheese which can be added optionaly.
 `Pizza`class was designed by the use of factory method, `pizza`'s types may differ based on the ingredients.
 
-###Conclusions
+### Conclusions
+While doing this lab work, it was easy to identify which patterns the domain choosen uses and so, finding this connection made
+it easier to understand how to implement patterns. At some point I was confused if the usage of builder method was correct, in my case `burger` class
+wasn't complexe, but still, by addding build methods, I noticed how useful it may be if class has many components.
+
