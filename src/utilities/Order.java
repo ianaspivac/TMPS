@@ -1,6 +1,6 @@
 package utilities;
 
-import com.lab1.burgerBuilder.Burger;
+import com.lab1.domain.burgerBuilder.Burger;
 import com.lab1.domain.pizzaFactory.Pizza;
 
 import java.util.ArrayList;

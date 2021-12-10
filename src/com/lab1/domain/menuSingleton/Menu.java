@@ -1,7 +1,7 @@
 package com.lab1.domain.menuSingleton;
 
-import com.lab1.burgerBuilder.Burger;
-import com.lab1.burgerBuilder.BurgerClient;
+import com.lab1.domain.burgerBuilder.Burger;
+import com.lab1.domain.burgerBuilder.BurgerClient;
 import com.lab1.domain.pizzaFactory.Pizza;
 import com.lab1.domain.pizzaFactory.PizzaFactory;
 

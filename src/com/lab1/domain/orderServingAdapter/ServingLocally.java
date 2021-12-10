@@ -1,7 +1,7 @@
 package com.lab1.domain.orderServingAdapter;
 
 import utilities.Order;
-import com.lab1.burgerBuilder.Burger;
+import com.lab1.domain.burgerBuilder.Burger;
 import com.lab1.domain.pizzaFactory.Pizza;
 
 public class ServingLocally implements Serving {

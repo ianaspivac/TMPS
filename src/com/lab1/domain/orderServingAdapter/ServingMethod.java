@@ -7,6 +7,4 @@ public interface ServingMethod {
 
     void serveTakeOut(Order order);
 
-    void serveLocally(Order order);
-
 }

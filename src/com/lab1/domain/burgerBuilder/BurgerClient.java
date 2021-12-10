@@ -1,4 +1,4 @@
-package com.lab1.burgerBuilder;
+package com.lab1.domain.burgerBuilder;
 
 
 public class BurgerClient{

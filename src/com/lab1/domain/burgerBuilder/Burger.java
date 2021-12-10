@@ -1,7 +1,8 @@
-package com.lab1.burgerBuilder;
+package com.lab1.domain.burgerBuilder;
 
-import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Burger {
     private final String name; // required
@@ -11,6 +12,7 @@ public class Burger {
     private final String meat; // required
     private final String[] vegetables; // optional
     private final String cheese; // optional
+    private List<String> ingredients = new ArrayList<>();
 
 
     private Burger(BurgerBuilder builder) {
@@ -51,6 +53,10 @@ public class Burger {
         return cheese;
     }
 
+    public List getIngredients() {
+        return ingredients;
+    }
+
     public void burgerInfo() {
         System.out.println("---------------------------");
         System.out.println("Burger name: " + this.getName());
@@ -64,10 +70,6 @@ public class Burger {
         if (this.getCheese() != null) {
             System.out.println("Cheese: " + this.getCheese());
         }
-    }
-
-    public void prepareBurger() {
-        System.out.println("All ingredients were prepared for " + this.name);
     }
 
     public static class BurgerBuilder {

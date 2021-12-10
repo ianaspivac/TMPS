@@ -15,10 +15,5 @@ public abstract class Pizza {
         System.out.println("Price:" + this.getPrice());
         System.out.println("Ingredients:" + Arrays.toString(this.getIngredients()));
     }
-
-    public void preparePizza() {
-        System.out.println("All ingredients added to " + this.getName() + " and put into oven");
-    }
-
 }
 

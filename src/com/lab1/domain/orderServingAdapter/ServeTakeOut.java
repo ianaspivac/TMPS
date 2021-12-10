@@ -1,14 +1,10 @@
 package com.lab1.domain.orderServingAdapter;
 
 import utilities.Order;
-import com.lab1.burgerBuilder.Burger;
+import com.lab1.domain.burgerBuilder.Burger;
 import com.lab1.domain.pizzaFactory.Pizza;
 
 public class ServeTakeOut implements ServingMethod {
-
-    @Override
-    public void serveLocally(Order order) {
-    }
 
     @Override
     public void serveTakeOut(Order order) {
